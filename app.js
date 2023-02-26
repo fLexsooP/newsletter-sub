@@ -37,7 +37,7 @@ app.post("/", function (req, res) {
 
   const options = {
     method: "POST",
-    auth: "chence:36b89e420d9363c1befdf237a938516e-us13"
+    auth: "chence:36b89e420d9363c1befdf237a938516e-us13"//void api key
   }
 
   const request = https.request(url, options, function(response) {
@@ -65,9 +65,5 @@ app.listen(process.env.PORT || 3000, function () {
 
 
 
-
-// List ID
-// ea0b463bc8
-
-// API key
+// API key(void)
 // 36b89e420d9363c1befdf237a938516e-us13
